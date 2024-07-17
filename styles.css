@@ -1,0 +1,73 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #4f4f4f;
+}
+
+.container{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.button {
+    background-color: #4f4f4f;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    Font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.textarea-container {
+    position: relative;
+    display: inline-block;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #4f4f4f;
+    border-radius: 12px;
+    background-color: #ffffff;
+    font-size: 16px;
+    resize: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.textarea-container button {
+    position: absolute;
+    /* bottom: 10px;
+    right: 10px; */
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #e0e0e0;
+    color: #4f4f4f;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.btn-delete {
+    bottom: 10px;
+    right: 10px;
+}
+
+.btn-edit {
+    bottom: 10px;
+    left: 10px;
+}
